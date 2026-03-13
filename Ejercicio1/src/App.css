@@ -16,7 +16,9 @@
     outline-offset: 2px;
   }
 }
-
+.main {
+  padding-top: 70px; /* Ajusta según necesidad */
+}
 .hero {
   position: relative;
 
