@@ -20,6 +20,9 @@ import Card from './components/Card';
 import Tarjetatabla from './components/TTA';
 import Collapse from './components/Collapse';
 import ListaG from './components/Listagrupo';
+import BotonFinal from './components/BotonFinal';
+import cosaGira from './components/Cosagira'
+import Pan from './components/Pan'
 function App() {
   const [count, setCount] = useState(0)
   const [mostrarAlerta, setMostrarAlerta] = useState(false);
@@ -53,6 +56,7 @@ const handleClick = (texto, index) => {
 
   return (
      <>
+           <cosaGira texto1="Cargando..."/>
      <Navbar
      textoactual="Inicio"
      texto1="Nosotros"
@@ -110,6 +114,8 @@ const handleClick = (texto, index) => {
       texto2="3"
       texto3="4"
       texto4="5"/>
+      <BotonFinal texto1="Click para popover"/> 
+      <Pan texto1="Texto dentro del pan" texto2=" pan"/>
     </>
   )
 }
