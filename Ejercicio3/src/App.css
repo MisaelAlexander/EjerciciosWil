@@ -16,7 +16,17 @@
     outline-offset: 2px;
   }
 }
-
+.Inpu
+{
+  border-radius: 20px;
+  border-color: black;
+}
+.boton
+{
+  border-radius: 20px;
+  border-color: black;
+  color: white;
+}
 .hero {
   position: relative;
 
