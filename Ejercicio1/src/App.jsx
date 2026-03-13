@@ -56,7 +56,7 @@ const handleClick = (texto, index) => {
 
   return (
      <>
-           <cosaGira texto1="Cargando..."/>
+          
      <Navbar
      textoactual="Inicio"
      texto1="Nosotros"
